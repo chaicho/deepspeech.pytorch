@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 from deepspeech_pytorch.decoder import Decoder, GreedyDecoder
 
-from pytorch_lightning.metrics import Metric
+from torchmetrics import Metric
 import Levenshtein as Lev
 
 
